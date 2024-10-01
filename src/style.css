@@ -1,0 +1,8 @@
+.icons svg{
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.icons a:hover svg{
+    fill : #0d1926;
+}
