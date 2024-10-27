@@ -128,7 +128,9 @@
         <span class="text-2xl md:text-3xl font-semibold font-oswald"
           >Languages</span
         >
-        <div class="flex justify-around mt-4 md:grid md:grid-cols-2 md:items-center">
+        <div
+          class="flex justify-around mt-4 md:grid md:grid-cols-2 md:items-center"
+        >
           <img
             src="../assets/cpp.jpg"
             alt="cpp"
@@ -158,10 +160,12 @@
 
       <!-- Frontend Section -->
       <div class="frontend text-center mt-10">
-        <span class="text-2xl md:text-3xl font-semibold font-oswald "
+        <span class="text-2xl md:text-3xl font-semibold font-oswald"
           >Frontend</span
         >
-        <div class="flex justify-around mt-4 md:grid md:grid-cols-2  md:items-center">
+        <div
+          class="flex justify-around mt-4 md:grid md:grid-cols-2 md:items-center"
+        >
           <img
             src="../assets/react.jpg"
             alt="react"
@@ -191,10 +195,12 @@
 
       <!-- Tools Section -->
       <div class="tools text-center mt-10">
-        <span class="text-2xl md:text-3xl font-semibold font-oswald "
+        <span class="text-2xl md:text-3xl font-semibold font-oswald"
           >Tools</span
         >
-        <div class="flex justify-around mt-4 md:grid md:grid-cols-2  md:items-center">
+        <div
+          class="flex justify-around mt-4 md:grid md:grid-cols-2 md:items-center"
+        >
           <img
             src="../assets/git.jpg"
             alt="git"
@@ -225,45 +231,99 @@
 
     <h1 class="text-center text-[40px] font-oswald mt-5">Projects</h1>
 
-    <div class="projects flex flex-col px-5 md:px-52 py-10">
+    <div class="projects flex flex-col px-5 md:px-52 py-10 mb-5">
       <div
-        class="flex my-5 border-4 border-gray-300 rounded-md flex-col md:flex-row justify-center items-center"
+        class="flex my-10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded-md flex-col md:flex-row justify-center items-center"
       >
-        <img src="https://placehold.co/500x300" alt="VoxElectra" />
-        <span class="md:px-10 p-5 text-gray-800  font-inter"
-          >VoxElectra is a project I built during SOC 2024, focusing on
+        <img
+          src="../assets/voxelectra.png"
+          alt="VoxElectra"
+          class="w-[500px] h-[300px] rounded-l-md"
+        />
+        <span class="md:px-10 p-5 pt-3 text-gray-800 font-inter">
+          <div class="block font-oswald text-[30px] mb-[15px]">VoxElectra</div>
+          VoxElectra is a project I built during SOC 2024, focusing on
           speech-to-text conversion. It leverages machine learning models to
           transform audio input into accurate textual output, which can be
           especially useful in applications like transcription or voice
           commands. I designed it using TensorFlow, avoiding transformer-based
           architectures, as I wanted to explore more traditional deep learning
-          methods. The process was a deep dive into audio processing, where I
-          had to handle varying MFCC lengths and ensure the model's robustness.
-          Ultimately, VoxElectra turned into a solid foundation for future work
-          in audio-to-text technologies.</span
-        >
+          methods.
+          <br />
+          <a
+            href="https://github.com/mradul-001/voxElectra.git"
+            style="float: right"
+            class="flex items-center text-blue-600"
+            >View project here
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="icon-svg ml-2 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="15"
+              width="15"
+            >
+              <path
+                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"
+                fill="#2563EB"
+              /></svg
+          ></a>
+        </span>
+        <br />
       </div>
       <div
-        class="flex my-5 border-4 border-gray-300 rounded-md flex-col md:flex-row justify-center items-center"
+        class="flex my-10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded-md flex-col md:flex-row justify-center items-center"
       >
-        <img src="https://placehold.co/500x300" alt="Attendance Portal" />
-        <span class="md:px-10 p-5 text-gray-800  font-inter"
-          >The NSS Attendance Portal is a project I developed for tracking
+        <img
+          src="../assets/nss.avif"
+          alt="Attendance Portal"
+          class="w-[500px] h-[300px] rounded-l-md"
+        />
+        <span class="md:px-10 p-5 text-gray-800 font-inter">
+          <div class="block font-oswald text-[30px] mb-[15px]">
+            Attendance Portal
+          </div>
+          The NSS Attendance Portal is a project I developed for tracking
           volunteer attendance at my college's NSS activities. The system is
           designed to handle location-based attendance, where volunteers are in
           different locations like NGOs or various campus sites. I also worked
           on creating PDF reports for different departments. This portal
           streamlines the attendance process, making it easier for NSS
-          coordinators to manage and verify volunteer participation
-          effectively.</span
-        >
+          coordinators to manage and verify volunteer participation effectively.
+          <br />
+          <a
+            href="https://github.com/mradul-001/nssAttendancePortal.git"
+            style="float: right"
+            class="flex items-center text-blue-600"
+            >View project here
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="icon-svg ml-2 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="15"
+              width="15"
+            >
+              <path
+                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"
+                fill="#2563EB"
+              /></svg
+          ></a>
+        </span>
       </div>
       <div
-        class="flex my-5 border-4 border-gray-300 rounded-md flex-col md:flex-row justify-center items-center"
+        class="flex my-10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded-md flex-col md:flex-row justify-center items-center"
       >
-        <img src="https://placehold.co/500x300" alt="DateSpark" />
-        <span class="md:px-10 p-5 text-gray-800  font-inter"
-          >DateSpark is a project I developed as part of my CS108 final
+        <img
+          src="../assets/datespark.png"
+          alt="DateSpark"
+          class="w-[500px] h-[300px] rounded-l-md"
+        />
+        <span class="md:px-10 p-5 text-gray-800 font-inter">
+          <div class="block font-oswald text-[30px] mb-[15px]">DateSpark</div>
+          DateSpark is a project I developed as part of my CS108 final
           assignment, aimed at creating a smart matching platform based on
           users' hobbies and interests. The idea behind DateSpark is to offer a
           personalized experience, where users can create profiles and find
@@ -271,27 +331,69 @@
           way to apply my skills in both backend and frontend development, and
           it taught me a lot about user interaction and dynamic content
           generation.
+          <br />
+          <a
+            href="https://github.com/mradul-001/datespark.git"
+            style="float: right"
+            class="flex items-center text-blue-600"
+            >View project here
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="icon-svg ml-2 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="15"
+              width="15"
+            >
+              <path
+                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"
+                fill="#2563EB"
+              /></svg
+          ></a>
         </span>
       </div>
       <div
-        class="flex my-5 border-4 border-gray-300 rounded-md flex-col md:flex-row justify-center items-center"
+        class="flex my-10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded-md flex-col md:flex-row justify-center items-center"
       >
-        <img src="https://placehold.co/500x300" alt="Block Me Out" />
-        <span class="md:px-10 p-5 text-gray-800  font-inter"
-          >BlockMeOut is a Chrome extension I built to help users stay focused
-          by blocking distracting websites during specific time intervals. The
-          idea came from my own need to minimize distractions while working or
+        <img
+          src="../assets/blockmeout.png"
+          alt="Block Me Out"
+          class="w-[500px] h-[300px] rounded-l-md"
+        />
+        <span class="md:px-10 p-5 text-gray-800 font-inter">
+          <div class="block font-oswald text-[30px] mb-[15px]">BlockMeOut</div>
+          BlockMeOut is a Chrome extension I built to help users stay focused by
+          blocking distracting websites during specific time intervals. The idea
+          came from my own need to minimize distractions while working or
           studying, and I figured a simple, user-friendly tool could solve this
-          issue. It features a sleek interface where users can customize their
-          blocklist and manage schedules easily. It’s a practical tool that’s
-          made my workflow more productive, and I hope it can benefit others in
-          the same way.</span
-        >
+          issue. It’s a practical tool that’s made my workflow more productive,
+          and I hope it can benefit others in the same way.
+          <br />
+          <a
+            href="https://github.com/mradul-001/blockMeOut.git"
+            style="float: right"
+            class="flex items-center text-blue-600"
+            >View project here
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="icon-svg ml-2 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="15"
+              width="15"
+            >
+              <path
+                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"
+                fill="#2563EB"
+              /></svg></a
+        ></span>
       </div>
     </div>
 
     <div class="footer bg-[#0d1926] p-5 text-center">
-      <h4 class="text-white font-dosis  text-2xl">&copy; Mradul Sonkar 2024</h4>
+      <h4 class="text-white font-dosis text-2xl">&copy; Mradul Sonkar 2024</h4>
     </div>
 
     <script
